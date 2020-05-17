@@ -5,7 +5,7 @@ class Image extends React.Component{
         return (
             <div className="images-block">
                 <ul>
-                    {this.props.allImages.map(({urls, id, description}) => <li><img src={urls.regular} key={id} alt={description} /></li>)}
+                    {this.props.allImages.map(({urls, id, alt_description}) => <li key={id}><img src={urls.regular} alt={alt_description} /></li>)}
                 </ul>
                 
             </div>
