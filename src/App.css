@@ -59,3 +59,13 @@ input[type=text]{
   border-radius: 10px;
   box-shadow: 5px 10px 10px #ccc;
 }
+
+@media screen and (max-width: 900px){
+  .App {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+  .images-block ul li {
+    max-width: 100%;
+  }
+}
